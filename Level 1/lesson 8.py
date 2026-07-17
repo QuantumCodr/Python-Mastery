@@ -69,11 +69,12 @@ if first_number > second_number:
 else:
     print("Second number is larger or equal.")
 
-# Challange 3
+# Challange 3 (ATM)
 balance = 500
 withdrawal_amount = float(input("Enter withdrawal amount: "))
 if withdrawal_amount < balance:
     balance = balance - withdrawal_amount
     print("Withdrawal successful!")
+    print(f"Remaining balance: {balance}")
 else:
     print("Insufficient funds!")
