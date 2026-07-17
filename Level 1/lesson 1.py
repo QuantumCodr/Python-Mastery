@@ -1,4 +1,4 @@
-# Program: Prirnt()
+# Program: Print()
 # Author: David
 # Lesson: 1
 
