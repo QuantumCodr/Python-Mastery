@@ -1,4 +1,4 @@
-# Program: While Loops
+# Program: While Loops - Repeat this code until I tell you to stop.
 # Author: David
 # Lesson: 11
 
