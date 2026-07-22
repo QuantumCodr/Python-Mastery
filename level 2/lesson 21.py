@@ -155,3 +155,7 @@ write a function that call for the input
 apply value and error checks
 if errors or wrong input keep calling the same function except else 
 '''
+'''
+Engineering Principle of Lesson 21
+Expect failure. Design for recovery.
+'''
