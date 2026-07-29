@@ -8,6 +8,3 @@ def authenticate(name, password):
     if user and password == user:
         return True
     return user == password
-
-print(authenticate("David", "python123"))
-print(authenticate("Paul", "password"))

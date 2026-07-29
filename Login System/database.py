@@ -8,4 +8,3 @@ users = {
     "Sarah": "welcome"
 }
 
-print(users["David"])
