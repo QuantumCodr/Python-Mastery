@@ -24,11 +24,9 @@ def show_menu():
 def add_student_menu():
     print()
     print("----- Add Student -----")
-
     name = input("Name   : ")
     age = input("Age    : ")
     course = input("Course : ")
-
     if add_student(name, age, course):
         print("\nStudent added successfully.")
     else:

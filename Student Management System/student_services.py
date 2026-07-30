@@ -9,6 +9,7 @@ from validator import validate_id
 from repository import get_student
 from repository import insert_student
 from repository import next_student_id
+from repository import remove_student
 
 
 def add_student(name, age, course):
