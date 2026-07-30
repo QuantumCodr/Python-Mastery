@@ -26,7 +26,7 @@ def validate_price(price):
 
 def validate_quantity(qty):
     try:
-        qty = float(qty)
+        qty = int(qty)
     except ValueError:
         return None
     if qty <= 0:

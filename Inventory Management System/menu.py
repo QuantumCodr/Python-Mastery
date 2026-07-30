@@ -25,8 +25,8 @@ def add_product_menu():
     print()
     print("------Add Product------")
     name = input("Name: ")
-    price = float(input("Price: "))
-    quantity = int(input("Quantity: "))
+    price = input("Price: ")
+    quantity = input("Quantity: ")
     if add_product(name, price, quantity):
         print("\nProduct added successfully.")
     else:
