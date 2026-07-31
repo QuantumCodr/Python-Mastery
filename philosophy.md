@@ -11,7 +11,7 @@
 3. What should it return?
 4. Who should call it?
 
-# For every worker, define:
+# For every worker (Function), define:
 
 Job description (purpose)
 Inputs (what they receive)
@@ -29,6 +29,7 @@ Who they depend on (other functions)
 7. Contracts before code.
 8. A function should have one clear responsibility and one clear return value.
 9. Good engineers reuse architectures, not just code.
+10. Am I describing something that exists, or am I recording something that happened?
 
 Programming is writing instructions that make the computer work. 
 Software engineering is organizing those instructions so humans 
