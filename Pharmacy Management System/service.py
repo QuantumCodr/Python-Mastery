@@ -69,7 +69,3 @@ def view_sales():
     return get_all_sales()
 
     
-
-print(sell_medicine(1, 4, 5))
-print(list_medicines())
-print(view_sales())
