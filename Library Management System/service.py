@@ -62,7 +62,6 @@ def search_book(book_id):
     
 
 def list_books():
-    books = get_all_books()
     return get_all_books()
    
 

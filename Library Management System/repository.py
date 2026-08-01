@@ -5,8 +5,6 @@
 from database import books, borrow_records, members
 
 def get_member(id):
-    if not members:
-        return None
     for member in members:
         if member['id'] == id:
             return member
@@ -14,16 +12,12 @@ def get_member(id):
     
 
 def get_book(id):
-    if not books:
-        return None
     for book in books:
         if book['id'] == id:
             return book
     return None
 
 def get_record(id):
-    if not borrow_records:
-        return None
     for record in borrow_records:
         if record['id'] == id:
             return record
@@ -53,12 +47,10 @@ def get_borrow_records(member_id):
     return matches
 
 def delete_record(record_id):
-    if not borrow_records:
-        return None
     for record in borrow_records:
         if record['id'] == record_id:
             borrow_records.remove(record)
             return True
-    return None
+    return False
 
     
