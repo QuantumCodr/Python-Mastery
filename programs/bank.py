@@ -1,4 +1,4 @@
-# Program: Mank Module
+# Program: Bank Module
 # Author: David
 # Lesson: 22
 
