@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Python Basics",
+        "author": "Sarah"
+    },
+    {
+        "id": 2,
+        "title": "Applied Accounting",
+        "author": "David"
+    },
+    {
+        "id": 3,
+        "title": "Introduction to OS",
+        "author": "John"
+    }
+]
