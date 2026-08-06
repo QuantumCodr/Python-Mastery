@@ -41,10 +41,10 @@ class Student:
 
 student1 = Student("David")
 student2 = Student("Sarah")
-srudent3 = Student("John")
+student3 = Student("John")
 print(student1.name)
 print(student2.name)
-print(srudent3.name)
+print(student3.name)
 
 # 6. Multiple parameters
 class Student:
@@ -206,6 +206,61 @@ bank_accounts = [
 for account in bank_accounts:
     print()
     print("---- Bank Account ----")
-    print(f"Account_number: usd{account.account_number}")
-    print(f"Name: usd{account.owner}")
-    print(f"Balance: usd{account.balance}")
+    print(f"Account_number: ${account.account_number}")
+    print(f"Name: ${account.owner}")
+    print(f"Balance: ${account.balance}")
+
+# Mini Project
+class Student:
+    def __init__(self, id, name, age, course):
+        self.id = id 
+        self.name= name 
+        self.age = age
+        self.course = course
+student1 = Student(1, "David", 24, "Software Engineering")
+student2 = Student(2, "Sarah", 21, "Nursing")
+student3 = Student(3, "Tom", 23, "Networking")
+
+class Teacher:
+    def __init__(self, id, name, salary, department):
+        self.id = id
+        self.name = name
+        self.salary = salary 
+        self.department = department
+teachers = [
+    Teacher(1, "Musa", 1500, "FICT"),
+    Teacher(2, "Sia", 2000, "FBIB"),
+    Teacher(3, "John", 2500, "FDI")
+]
+
+class Course:
+    def __init__(self, id, name, course_hour, department):
+        self.id = id 
+        self.name = name 
+        self.course_hour = course_hour
+        self.department = department
+courses = [
+    Course(1, "Structured Prodramming", 50, "FICT"),
+    Course(2, "Software Engineering", 50, "FICT"),
+    Course(3, "Database", 50, "FICT")
+]
+
+class Department:
+    def __init__(self, id, name):
+        self.id = id 
+        self.name = name
+departments = [
+    Department(1, "FICT"),
+    Department(2, "FDI"),
+    Department(3, "FAAB")
+]
+
+class Classroom:
+    def __init__(self, id, label, status):
+        self.id = id 
+        self.label = label 
+        self.status = status
+classrooms = [
+    Classroom(1, "Clr 1", "open"),
+    Classroom(2, "Clr 2", "closed")
+]
