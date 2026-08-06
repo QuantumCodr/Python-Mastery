@@ -19,7 +19,7 @@ student4 = Student()
 
 print(student2)
 print(student3)
-print(student3)
+print(student4)
 
 # 4. Objects are Variables
 class Computer:
